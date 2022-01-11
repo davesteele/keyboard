@@ -1,0 +1,3 @@
+version=4
+
+https://github.com/boppreh/keyboard/tags /boppreh/keyboard/archive/refs/tags/v(.+)\.tar\.gz

@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+export PYBUILD_NAME=python-keyboard
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+
+override_dh_auto_test:
+	py.test-3 keyboard/_mouse_tests.py  keyboard/_keyboard_tests.py

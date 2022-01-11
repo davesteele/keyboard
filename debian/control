@@ -1,0 +1,30 @@
+Source: python-keyboard
+Section: python
+Priority: optional
+Maintainer: David Steele <steele@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-pytest
+Standards-Version: 4.5.1
+Homepage: https://github.com/boppreh/keyboard
+Vcs-Browser: https://github.com/davesteele/keyboard
+Vcs-Git: https://github.com/davesteele/keyboard
+Rules-Requires-Root: no
+
+Package: python3-keyboard
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: python-keyboard-0.13-doc
+Description: Python module for interacting with the keyboard
+ Take full control of your keyboard with this small Python library. Hook global
+ events, register hotkeys, simulate key presses and much more.
+ .
+ This package installs the library for Python 3.
+
+# Package: python-keyboard-doc
+# Architecture: all
+# Section: doc
+# Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+# Description: Documenation for the python3-keyboard package
+#  Take full control of your keyboard with this small Python library. Hook global
+#  events, register hotkeys, simulate key presses and much more.
+#  .
+#  This is the common documentation package.
