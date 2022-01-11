@@ -1,5 +1,5 @@
 python-keyboard (0.13.5-1) UNRELEASED; urgency=medium
 
-  * Initial release (Closes: #0000)  
+  * Initial release (Closes: #1003496)
 
  -- David Steele <steele@debian.org>  Sun, 09 Jan 2022 16:34:13 -0500
