@@ -17,6 +17,8 @@ Description: Python module for interacting with the keyboard
  Take full control of your keyboard with this small Python library. Hook global
  events, register hotkeys, simulate key presses and much more.
  .
+ The keyboard package requires root permissions.
+ .
  This package installs the library for Python 3.
 
 # Package: python-keyboard-doc
