@@ -1,3 +1,9 @@
+python-keyboard (0.13.5-2) unstable; urgency=medium
+
+  * Binary upload.
+
+ -- David Steele <steele@debian.org>  Thu, 13 Jan 2022 20:34:09 -0500
+
 python-keyboard (0.13.5-1) unstable; urgency=medium
 
   * Initial release (Closes: #1003496)

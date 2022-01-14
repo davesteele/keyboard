@@ -1,3 +1,10 @@
+python-keyboard (0.13.5-2) UNRELEASED; urgency=medium
+
+    Note that the use of "mouse" in this package is deprecated. The Warning
+    states that the PyPi "mouse" project should be used instead.
+ 
+ -- David Steele <steele@debian.org>  Mon, 10 Jan 2022 20:03:58 -0500
+
 python-keyboard (0.13.5-1) unstable; urgency=medium
 
     Note that the use of "mouse" in this package is deprecated. The Warning
