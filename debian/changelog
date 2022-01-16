@@ -1,8 +1,8 @@
-python-keyboard (0.13.5-3) UNRELEASED; urgency=medium
+python-keyboard (0.13.5-3) unstable; urgency=medium
 
   * Include source with NEW upload (Closes: #1003496).
 
- -- David Steele <steele@debian.org>  Sat, 15 Jan 2022 22:04:01 -0500
+ -- David Steele <steele@debian.org>  Sat, 15 Jan 2022 22:09:23 -0500
 
 python-keyboard (0.13.5-2) unstable; urgency=medium
 
